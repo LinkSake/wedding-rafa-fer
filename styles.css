@@ -1,0 +1,38 @@
+body {
+    margin: 2em;
+    background: whitesmoke;
+
+}
+
+img.hero {
+    max-width: 100%;
+}
+
+.border {
+    border: solid 1px black;
+}
+
+.content {
+    text-align: center;
+}
+
+.countdown {
+    display: grid;
+    grid-gap: 1em;
+    justify-content: center;
+    grid-template-columns: 6em 6em 6em;
+}
+
+.info {
+    display: grid;
+    grid-gap: 1em;
+    justify-content: center;
+    grid-template-columns: 10em 10em;
+}
+
+.schedule {
+    display: grid;
+    grid-gap: 1em;
+    justify-content: space-around;
+    grid-template-columns: 8em 8em;
+}

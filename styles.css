@@ -4,8 +4,21 @@ body {
 
 }
 
+h1.quote, h1.together-header {
+    margin-bottom: 0.1em;
+}
+
+h2.together-header {
+    margin-top: 0.2em;
+}
+
 img.hero {
     max-width: 100%;
+    margin-bottom: 0;
+}
+
+.big {
+    font-size: 1.3em;
 }
 
 .border {
@@ -21,6 +34,15 @@ img.hero {
     grid-gap: 1em;
     justify-content: center;
     grid-template-columns: 6em 6em 6em;
+    margin-bottom: 2em;
+}
+
+.emoji-top {
+    display: block;
+}
+
+.hero {
+    margin-bottom: 2em;
 }
 
 .info {
@@ -30,9 +52,19 @@ img.hero {
     grid-template-columns: 10em 10em;
 }
 
+.long-text {
+    text-align: justify;
+}
+
 .schedule {
     display: grid;
     grid-gap: 1em;
     justify-content: space-around;
     grid-template-columns: 8em 8em;
+}
+
+.quote-src {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 2em;
 }

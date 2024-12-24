@@ -1,7 +1,11 @@
+/* Plata: #b5b7bb  #d8d8d8 #afb1ae #cccccc */
+/* Verde Esmeralda: #0f5132 #185235 #026842 #24763f} */
+
 body {
     margin: 2em;
-    background: whitesmoke;
-
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;        
 }
 
 h1.quote, h1.together-header {
@@ -21,8 +25,10 @@ img.hero {
     font-size: 1.3em;
 }
 
-.border {
-    border: solid 1px black;
+.cd-item {
+    color: white;
+    border-radius: 1em;
+    background-color: #b5b7bb;
 }
 
 .content {

@@ -8,6 +8,13 @@ body {
     font-style: normal;        
 }
 
+@media(min-width: 768px) {
+    body {
+        padding-left: 13em;
+        padding-right: 13em;
+    }
+}
+
 a {
     color: #b5b7bb;
 }

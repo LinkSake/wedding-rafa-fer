@@ -2,10 +2,14 @@
 /* Verde Esmeralda: #0f5132 #185235 #026842 #24763f} */
 
 body {
-    margin: 2em;
+    margin: 0px;
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;        
+}
+
+a {
+    color: #b5b7bb;
 }
 
 h1.quote, h1.together-header {
@@ -16,39 +20,35 @@ h2.together-header {
     margin-top: 0.2em;
 }
 
-img.hero {
-    max-width: 100%;
-    margin-bottom: 0;
-}
-
 .big {
     font-size: 1.3em;
 }
 
 .cd-item {
+    background: #b5b7bb;
     color: white;
     border-radius: 1em;
-    background-color: #b5b7bb;
 }
 
 .content {
+    padding: 1.5em;
     text-align: center;
 }
 
 .countdown {
+    text-align: center;
+    margin-bottom: 2em;
     display: grid;
     grid-gap: 1em;
     justify-content: center;
     grid-template-columns: 6em 6em 6em;
     margin-bottom: 2em;
+    background: #b5b7bb;
+    font-size: 20px;
 }
 
 .emoji-top {
     display: block;
-}
-
-.hero {
-    margin-bottom: 2em;
 }
 
 .info {
@@ -69,8 +69,21 @@ img.hero {
     grid-template-columns: 8em 8em;
 }
 
+.quote {
+  font-family: "Birthstone", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+
 .quote-src {
     width: 100%;
     text-align: right;
-    margin-bottom: 2em;
+}
+
+.photo {
+     max-width: 100%; 
+     margin-bottom: 0; 
+     padding-bottom: 2em; 
+     background: #000000; 
 }
